@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Target Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imaging Planner</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        input, button { margin: 10px; padding: 8px; font-size: 16px; }
+        #results { margin-top: 20px; text-align: left; }
+    </style>
 </head>
 <body>
-<h1>Welcome to the Imaging Planner</h1>
-<script src="script.js"></script>
+    <h1>Welcome to the Imaging Planner</h1>
+    
+    <input type="text" id="search" placeholder="Search for an object...">
+    <button id="searchButton">Search</button>
+    
+    <div id="results"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
